@@ -1,4 +1,4 @@
-package com.springboot.microservice.example.forex.springbootmicroserviceforexservice;
+package springbootmicroserviceforexservice;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

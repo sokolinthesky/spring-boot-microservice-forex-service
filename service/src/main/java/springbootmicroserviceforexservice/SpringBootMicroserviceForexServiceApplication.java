@@ -1,4 +1,4 @@
-package com.springboot.microservice.example.forex.springbootmicroserviceforexservice;
+package springbootmicroserviceforexservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

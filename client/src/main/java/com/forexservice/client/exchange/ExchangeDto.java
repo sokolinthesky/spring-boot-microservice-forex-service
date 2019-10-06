@@ -1,32 +1,21 @@
-package com.springboot.microservice.example.forex.springbootmicroserviceforexservice;
+package com.forexservice.client.exchange;
 
 import java.math.BigDecimal;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
-public class ExchangeValue {
-
-    @Id
+public class ExchangeDto {
     private Long id;
-
-    @Column(name="currency_from")
     private String from;
-
-    @Column(name="currency_to")
     private String to;
 
     private BigDecimal conversionMultiple;
     private int port;
 
-    public ExchangeValue() {
+    public ExchangeDto() {
 
     }
 
 
-    public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
+    public ExchangeDto(Long id, String from, String to, BigDecimal conversionMultiple) {
         super();
         this.id = id;
         this.from = from;
@@ -57,5 +46,4 @@ public class ExchangeValue {
     public void setPort(int port) {
         this.port = port;
     }
-
 }
